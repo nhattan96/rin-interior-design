@@ -1,0 +1,92 @@
+.home .intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.home .intro .left {
+  width: 40%;
+}
+
+.home .intro .right {
+  width: 60%;
+}
+
+.home .intro .left h1 {
+  font-size: 6em;
+}
+
+.home .intro .left p {
+  font-size: 2em;
+}
+
+.home .intro .right {
+  position: relative;
+  border: 3px solid;
+  height: 27vw;
+}
+
+.home .intro .right h2 {
+  margin-left: 125px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.home .intro .right h2::before {
+  content: "";
+  position: absolute;
+  border: solid 3px;
+  width: 70px;
+  top: -5px;
+}
+
+.home .intro .img-front {
+  width: 70%;
+  margin-left: 125px;
+  margin-top: 20px;
+}
+
+.home .intro .img-behind {
+  width: 45%;
+  position: absolute;
+  top: -70px;
+  right: -80px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .home .intro {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home .intro .left {
+    width: 100%;
+  }
+
+  .home .intro .right {
+    width: 100%;
+  }
+
+  .home .intro .right h2 {
+    margin-left: 5px;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .home .intro .img-front {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+  }
+
+  .home .intro .img-behind {
+    width: 45%;
+    position: absolute;
+    top: 90px;
+    right: -20px;
+    z-index: -1;
+  }
+}

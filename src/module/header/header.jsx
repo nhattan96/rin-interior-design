@@ -1,26 +1,26 @@
 import logo from "../../assets/imgs/logo.png";
+import { React } from "react";
+import "./header.css";
 
 const Header = () => (
   <header>
-    <div className="container">
-      <img src={logo} alt="" />
-      <nav>
-        <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <img className="logo-img" src={logo} alt="" />
+    <nav>
+      <ul>
+        <li>
+          <a href="#1">Home</a>
+        </li>
+        <li>
+          <a href="#2">Services</a>
+        </li>
+        <li>
+          <a href="#3">Portfolio</a>
+        </li>
+        <li>
+          <a href="#4">Contact</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 );
 

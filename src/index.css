@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #333;
   line-height: 1.6;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /* Reset CSS */
@@ -24,48 +24,12 @@ body {
 }
 
 .container {
-  width: 80%;
-  max-width: 1200px;
+  width: 90%;
   margin: 0 auto;
   padding: 20px;
 }
 
-header {
-  padding: 10px 0;
-}
-
-header h1 {
-  float: left;
-  font-size: 1.8em;
-  margin: 0;
-}
-
-nav {
-  float: right;
-  color: #333;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: #333;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  padding: 10px 15px;
-}
-
-nav ul li a:hover {
-  background-color: #555;
-}
-
-.hero {
+/* .hero {
   background-size: cover;
   text-align: center;
   padding: 100px 0;
@@ -79,7 +43,7 @@ nav ul li a:hover {
 .hero p {
   font-size: 1.2em;
   margin-bottom: 30px;
-}
+} */
 
 .btn {
   display: inline-block;
@@ -201,31 +165,12 @@ footer {
 
 @media (max-width: 768px) {
   .container {
-    width: 90%;
+    width: 95%;
   }
 
   header {
     padding: 15px 0;
     text-align: center;
-  }
-
-  header h1 {
-    float: none;
-    margin-bottom: 10px;
-  }
-
-  nav {
-    float: none;
-    margin-top: 10px;
-  }
-
-  nav ul {
-    text-align: center;
-  }
-
-  nav ul li {
-    display: block;
-    margin: 10px 0;
   }
 
   .hero h2 {
