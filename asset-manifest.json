@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/rin-interior-design/static/css/main.86292aae.css",
+    "main.css": "/rin-interior-design/static/css/main.537d1bff.css",
     "main.js": "/rin-interior-design/static/js/main.b4c10b2b.js",
     "static/js/453.6745c36f.chunk.js": "/rin-interior-design/static/js/453.6745c36f.chunk.js",
     "static/media/logo.png": "/rin-interior-design/static/media/logo.00f1614f9a96ce81d59c.png",
     "static/media/home2.jpg": "/rin-interior-design/static/media/home2.ec59b4cd59c0c4f638fa.jpg",
     "static/media/CoreSansD27CnLight.otf": "/rin-interior-design/static/media/CoreSansD27CnLight.fbf88b65d3cf0621d418.otf",
     "index.html": "/rin-interior-design/index.html",
-    "main.86292aae.css.map": "/rin-interior-design/static/css/main.86292aae.css.map",
+    "main.537d1bff.css.map": "/rin-interior-design/static/css/main.537d1bff.css.map",
     "main.b4c10b2b.js.map": "/rin-interior-design/static/js/main.b4c10b2b.js.map",
     "453.6745c36f.chunk.js.map": "/rin-interior-design/static/js/453.6745c36f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86292aae.css",
+    "static/css/main.537d1bff.css",
     "static/js/main.b4c10b2b.js"
   ]
 }
