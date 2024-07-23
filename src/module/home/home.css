@@ -6,11 +6,11 @@
 }
 
 .home .intro .left {
-  width: 40%;
+  width: 30%;
 }
 
 .home .intro .right {
-  width: 60%;
+  width: 70%;
 }
 
 .home .intro .left h1 {
@@ -28,7 +28,7 @@
 }
 
 .home .intro .right h2 {
-  margin-left: 125px;
+  margin-left: 80px;
   margin-top: 20px;
   position: relative;
 }
@@ -42,9 +42,12 @@
 }
 
 .home .intro .img-front {
-  width: 70%;
-  margin-left: 125px;
+  width: 90%;
+  height: 500px;
+  object-fit: cover;
+  margin-left: 80px;
   margin-top: 20px;
+  border-radius: 5px;
 }
 
 .home .intro .img-behind {
@@ -53,6 +56,34 @@
   top: -70px;
   right: -80px;
   z-index: -1;
+  border-radius: 5px;
+}
+
+.home .btn {
+  margin-top: 10px;
+  display: inline-block;
+  border: 2px solid #000000;
+  color: #000000;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.home .btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.home .service-item {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.home .service-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
@@ -64,29 +95,60 @@
 
   .home .intro .left {
     width: 100%;
+    margin-top: 200px;
   }
 
   .home .intro .right {
     width: 100%;
+    text-align: center;
   }
 
   .home .intro .right h2 {
-    margin-left: 5px;
+    float: left;
+    margin-left: 32px;
     margin-top: 10px;
     position: relative;
   }
 
   .home .intro .img-front {
-    width: 100%;
+    width: 90%;
+    height: 350px;
     margin-top: 20px;
     margin-left: auto;
+    object-fit: cover;
   }
 
   .home .intro .img-behind {
-    width: 45%;
+    width: 30%;
     position: absolute;
-    top: 90px;
+    top: -30px;
     right: -20px;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 425px) {
+  .home .intro .left {
+    margin-top: 100px;
+  }
+
+  .home .intro .right h2 {
+    margin-left: 12px;
+  }
+
+  .home .intro .img-front {
+    width: 95%;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: auto;
+    object-fit: cover;
+  }
+
+  .home .intro .img-behind {
+    width: 30%;
+    position: absolute;
+    top: -10px;
+    right: -30px;
     z-index: -1;
   }
 }
