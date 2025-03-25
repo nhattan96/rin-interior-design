@@ -2,6 +2,7 @@ import "./home.css";
 import homeImg2 from "../../assets/imgs/home2.jpg";
 import ImgsChange from "module/common/imgs-change/imgs-change";
 import MasonryLayout from "module/common/masonry/masonry";
+import AnimatedText from "module/common/animated-text/animated-text";
 
 const Home = () => {
   const introImgs = [
@@ -41,7 +42,9 @@ const Home = () => {
     <div className="container home">
       <section id="home" className="intro">
         <div className="left">
-          <h1>RIN DESIGN</h1>
+          <h1>
+            <AnimatedText text={"Rin Design"}></AnimatedText>
+          </h1>
           <p>
             We transform spaces into inspiring interiors. <br /> Let us bring
             your vision to life.

@@ -3,6 +3,17 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
+  animation-name: slide-to-right;
+  animation-duration: 2s;
+}
+
+@keyframes slide-to-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 
 .home .intro .left {
