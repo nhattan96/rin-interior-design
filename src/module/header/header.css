@@ -83,7 +83,7 @@ header nav ul li a:hover {
     position: fixed;
     transform: translateY(0);
     background-color: #24642d7a;
-    transition: linear 0.2s;
+    transition: ease 0.05s;
     height: 100vh;
   }
 

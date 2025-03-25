@@ -1,7 +1,7 @@
 .animated-text span {
   opacity: 0;
   display: inline-block;
-  animation: fadeInUp 4s infinite;
+  animation: fadeInUp 1s forwards;
   background: linear-gradient(45deg, #ff7eb3, #ff758c, #ff8c00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -10,11 +10,10 @@
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-  }
-  50% {
-    opacity: 1;
+    transform: translateY(-100%);
   }
   100% {
-    opacity: 0;
+    opacity: 1;
+    transform: translateY(0);
   }
 }

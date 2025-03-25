@@ -43,11 +43,14 @@ const Home = () => {
       <section id="home" className="intro">
         <div className="left">
           <h1>
-            <AnimatedText text={"Rin Design"}></AnimatedText>
+            <AnimatedText text={"Rin Design"} type={"character"}></AnimatedText>
           </h1>
           <p>
-            We transform spaces into inspiring interiors. <br /> Let us bring
-            your vision to life.
+            <br />
+            <AnimatedText
+              text={"We transform spaces into inspiring interiors. Let us bring your vision to life."}
+              type={"word"}
+            ></AnimatedText>
           </p>
 
           <a href="#services" className="btn">
