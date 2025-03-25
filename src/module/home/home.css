@@ -24,7 +24,6 @@
 .home .intro .right {
   position: relative;
   border: 3px solid;
-  height: 27vw;
 }
 
 .home .intro .right h2 {
@@ -80,6 +79,8 @@
 }
 
 .home .service-item img {
+  width: 100%;
+  padding: 10px 200px;
   max-width: 100%;
   height: auto;
   border-radius: 5px;
@@ -127,7 +128,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 550px) {
   .home .intro .left {
     margin-top: 100px;
   }
