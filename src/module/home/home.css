@@ -11,6 +11,7 @@
 
 .home .intro .right {
   width: 70%;
+  padding: 5px;
 }
 
 .home .intro .left h1 {
@@ -46,7 +47,6 @@
   object-fit: cover;
   margin-left: 80px;
   margin-top: 20px;
-  border-radius: 5px;
 }
 
 .home .intro .img-behind {
@@ -56,6 +56,7 @@
   right: -80px;
   z-index: -1;
   border-radius: 5px;
+  opacity: 0.3;
 }
 
 .home .btn {
@@ -96,7 +97,7 @@
 
   .home .intro .left {
     width: 100%;
-    margin-top: 200px;
+    margin-top: 50px;
   }
 
   .home .intro .right {
@@ -126,11 +127,15 @@
     right: -20px;
     z-index: -1;
   }
+
+  .home .service-item img {
+    padding: 0;
+  }
 }
 
 @media (max-width: 550px) {
   .home .intro .left {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .home .intro .right h2 {

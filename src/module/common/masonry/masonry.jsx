@@ -1,5 +1,6 @@
 import Masonry from "react-masonry-css";
 import "./masonry.css";
+import ImagePreview from "../img-preview/img-preview";
 
 const breakpointColumnsObj = {
   default: 4,
@@ -17,7 +18,7 @@ const MasonryLayout = ({ items, custom }) => {
     >
       {items.map((item, index) => (
         <div key={index} className="masonry-item">
-          <img src={item} alt={`Item ${index}`} />
+          <ImagePreview imageUrl={item}></ImagePreview>
         </div>
       ))}
     </Masonry>
